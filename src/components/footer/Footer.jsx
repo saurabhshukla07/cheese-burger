@@ -7,12 +7,12 @@ const Footer = () => {
     <div className='footer' id='footer'>
         <div className="footer-content">
             <div className='footer-content-left'>
-                <img src={assets.logo} alt="" />
+                <img className='footer-logo' src={assets.logo} alt="" />
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, iste. Velit aut distinctio odit accusamus, officiis placeat dolore tenetur voluptatibus voluptatem doloribus excepturi reprehenderit, at labore animi laudantium, omnis nisi.</p>
                 <div className="footer-social-icons">
                    <img src={assets.facebook_icon} alt="" />
                    <img src={assets.twitter_icon} alt="" />
-                   <img src={assets.linkedin_icon} alt="" /> 
+                  <a href="https://www.linkedin.com/in/saurabhshukla07/" target='_blank'>  <img src={assets.linkedin_icon} alt="" /> </a>
                 </div>
             </div>
             <div className='footer-content-center'>

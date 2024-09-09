@@ -1,12 +1,14 @@
 .navbar{
-    
+   
 padding: 20px 0;
 display: flex;
 justify-content: space-between;
 align-items: center;
 }
 .navbar .logo{
-    width: 150px;
+    width: 200px;
+    height: 50%;
+    
 }
 .navbar-menu{
     display: flex;
@@ -99,4 +101,9 @@ align-items: center;
         display: none;
     }
     
+}
+@media (max-width:372px){
+    .logo{
+        width: 120px;
+    }
 }

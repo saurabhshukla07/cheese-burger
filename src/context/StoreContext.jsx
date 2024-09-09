@@ -29,7 +29,7 @@ const getTotalCartAmount = ()=>{
   }
   return totalAmount;
 }
-
+ 
     const contextValue={
        food_list,
        cartItems,
